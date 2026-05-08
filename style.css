@@ -96,3 +96,16 @@ h3{
     font-size: 20px;
     font-weight: bold;
 }
+
+@media( max-width: 768px)  {
+    .Card{
+        max-height: auto;
+        max-width: auto;
+
+    }
+    .Cards{
+         display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
